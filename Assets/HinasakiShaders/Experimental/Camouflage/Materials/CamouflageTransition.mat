@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CamouflageTransition
+  m_Shader: {fileID: 4800000, guid: 80aef2d7ff1d3664e85209817177915c, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveMap:
+        m_Texture: {fileID: 2800000, guid: 0364400f3a2283049b6c1421f254c856, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 4a86cc12484abeb4d8f3394df340cb21, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MosaicTex:
+        m_Texture: {fileID: 2800000, guid: fc7b6ecb183930e41931dbadd2efb782, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 52975c975a56b4a42ad33114c5f23b52, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Cutoff: 0.473
+    - _Dissolve: 1
+    - _DissolveAmount: 0
+    - _DissolveEdgeSoftness: 1
+    - _DissolveEdgeWidth: 0.392
+    - _DissolveSpeed: 1
+    - _DissolveThreshold: 2
+    - _DissolveY: 0
+    - _EdgeWidth: 0.1
+    - _GlobelYScale: 5
+    - _Glossiness: 0.5
+    - _HexagonAmount: 0.5
+    - _HexagonSize: 0.5
+    - _LinearSize: 8
+    - _MosaicTexSize: 10
+    - _NoiseScale: 0.369
+    - _NoiseSize: 2.3
+    - _NoiseSpeed: 0.01
+    - _RefPower: 0.15
+    - _Refraction: 0
+    - _RefractionIndex: 1.33
+    - _Size: 1
+    - _Speed: 5
+    - _TexPower: 0.5
+    - _Threshold: 0.5
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EdgeColor: {r: 0, g: 0, b: 0, a: 1}
