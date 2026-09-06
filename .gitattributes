@@ -1,0 +1,24 @@
+# Keep text stable across Windows, macOS, and Linux checkouts.
+* text=auto
+*.shader text eol=lf
+*.cginc text eol=lf
+*.hlsl text eol=lf
+*.meta text eol=lf
+*.mat text eol=lf
+*.unity text eol=lf
+*.prefab text eol=lf
+*.asset text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.py text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+LICENSE text eol=lf
+NOTICE text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.fbx binary
+*.unitypackage binary

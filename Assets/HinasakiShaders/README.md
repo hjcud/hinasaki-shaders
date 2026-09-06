@@ -40,3 +40,7 @@ Shader behavior and import settings are unchanged. For a self-contained distribu
 - Experimental ice implementations retain coordinate-space and unused-property issues.
 - Existing fallback-name typos and other legacy shader behavior are preserved.
 - Unity compilation, newer Unity versions, VR stereo rendering, mirrors, and GPU performance have not been revalidated for this distribution.
+
+## License and credits
+
+The Apache-2.0 license and project credits travel with the imported assets: see [LICENSE.txt](LICENSE.txt) and [NOTICE.txt](NOTICE.txt). Demo footage is distributed separately in the repository.

@@ -39,6 +39,10 @@
 
 ## 사용 방법
 
+[Unity 패키지 다운로드 — v0.1.0 프리릴리스](https://github.com/hjcud/hinasaki-shaders/releases/tag/v0.1.0)
+
+다운로드한 `.unitypackage`를 Unity의 **Assets → Import Package → Custom Package…**에서 가져올 수 있습니다. 소스로 설치하려면 아래 순서를 따르세요.
+
 1. `Assets/HinasakiShaders`와 `Assets/HinasakiShaders.meta`를 사용할 Unity 프로젝트의 `Assets`로 복사합니다.
 2. 각 기능의 `Materials` 폴더에 있는 머티리얼을 대상 메시에 적용합니다.
 3. 눈물 위치·마스크·속도 등을 메시의 UV에 맞게 조절합니다.

@@ -1,0 +1,10 @@
+Hinasaki Shaders
+
+Originally developed as commissioned work for @mbM0001_.
+Client: https://x.com/mbM0001_
+
+Shader development: hjcud
+https://github.com/hjcud
+
+Demo media sources and their separate licensing scope are documented in
+docs/media/README.md.

@@ -39,6 +39,10 @@ A collection of Unity visual-effect shaders developed as commissioned work for [
 
 ## Usage
 
+[Download the Unity package — v0.1.0 prerelease](https://github.com/hjcud/hinasaki-shaders/releases/tag/v0.1.0)
+
+Import the `.unitypackage` through Unity’s **Assets → Import Package → Custom Package…** menu. To install from source, follow the steps below.
+
 1. Copy `Assets/HinasakiShaders` and `Assets/HinasakiShaders.meta` into your Unity project’s `Assets` directory.
 2. Apply a material from the corresponding feature’s `Materials` folder to your mesh.
 3. Adjust tear positions, masks, speeds, and other parameters to suit the mesh’s UV layout.

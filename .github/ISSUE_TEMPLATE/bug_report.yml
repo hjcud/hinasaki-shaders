@@ -1,0 +1,60 @@
+name: Bug report / 不具合報告 / 버그 신고
+description: Report a shader or import problem. 日本語・한국어・English OK.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check the asset guide's known limitations before reporting.
+        既知の制限 / 알려진 제한 사항: https://github.com/hjcud/hinasaki-shaders/blob/main/Assets/HinasakiShaders/README.md
+        Share a minimal example without third-party avatars or private project files.
+  - type: input
+    id: version
+    attributes:
+      label: Package version or commit / バージョン / 버전
+      placeholder: v0.1.0 or commit SHA
+    validations:
+      required: true
+  - type: input
+    id: unity
+    attributes:
+      label: Unity version / Unityバージョン / Unity 버전
+      placeholder: 2019.4.31f1
+    validations:
+      required: true
+  - type: dropdown
+    id: pipeline
+    attributes:
+      label: Render pipeline / レンダーパイプライン / 렌더 파이프라인
+      options:
+        - Built-in Render Pipeline
+        - URP (requires shader adaptation)
+        - HDRP (requires shader adaptation)
+        - Other or unsure
+    validations:
+      required: true
+  - type: input
+    id: shader
+    attributes:
+      label: Shader and material / シェーダー・マテリアル / 셰이더·머티리얼
+      placeholder: Hinasaki/Teardrop_APOLLO / TeardropApollo
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / 再現手順 / 재현 방법
+      description: Include the smallest set of steps and relevant material settings.
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: Expected and actual result / 期待した結果と実際の結果 / 예상·실제 결과
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment and logs / 環境・ログ / 환경·로그
+      description: OS, GPU, graphics API, desktop or VR, console errors, and screenshots if useful.

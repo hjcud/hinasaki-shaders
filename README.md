@@ -39,6 +39,10 @@
 
 ## 使い方
 
+[Unityパッケージをダウンロード — v0.1.0 プレビュー](https://github.com/hjcud/hinasaki-shaders/releases/tag/v0.1.0)
+
+ダウンロードした `.unitypackage` をUnityの **Assets → Import Package → Custom Package…** から読み込めます。ソースから導入する場合は、以下の手順をご利用ください。
+
 1. `Assets/HinasakiShaders` と `Assets/HinasakiShaders.meta` を、使用するUnityプロジェクトの `Assets` にコピーします。
 2. 各機能の `Materials` にあるマテリアルを対象メッシュに設定します。
 3. 涙の位置・マスク・速度などを、メッシュのUVに合わせて調整します。
